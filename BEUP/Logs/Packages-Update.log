@@ -43,3 +43,11 @@ The following packages were added:
   com.unity.textmeshpro@2.0.1
   com.unity.timeline@1.2.10
   com.unity.ugui@1.0.0
+
+=== Sat Mar  7 11:56:07 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.timeline from version 1.2.10 to 1.2.12
