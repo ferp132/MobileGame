@@ -6,24 +6,28 @@ using CatchCo;
 public class Waypoint : MonoBehaviour
 {
     Vector3Int gridPos = Vector3Int.zero;
-    const int gridSize = 10;
+
 
     [SerializeField] Dictionary<Vector3Int, Waypoint> attachedWaypoints = new Dictionary<Vector3Int, Waypoint>();
 
-    public int GridSize { get => gridSize; }
+    public Dictionary<Vector3Int, Waypoint> AttachedWaypoints { get => attachedWaypoints; set => attachedWaypoints = value; }
 
     public Vector3Int GetGridPos()
     {
+        float gridSize = GridManager.GridSize;
+
         return new Vector3Int(
-            Mathf.RoundToInt(transform.position.x / gridSize) * gridSize,
+            (int)(Mathf.RoundToInt(transform.position.x / gridSize) * gridSize),
             0, //Mathf.RoundToInt(transform.position.y / gridSize) * gridSize
-            Mathf.RoundToInt(transform.position.z / gridSize) * gridSize
+            (int)(Mathf.RoundToInt(transform.position.z / gridSize) * gridSize)
         );
     }
 
     [ExposeMethodInEditor]
     public void AttachToNeighbours()
     {
+        float gridSize = GridManager.GridSize;
+
         for (int x = -1; x < 2; x++)
         {
             for (int z = -1; z < 2; z++)

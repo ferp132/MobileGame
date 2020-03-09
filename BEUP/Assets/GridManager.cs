@@ -3,19 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using CatchCo;
 
-[ExecuteInEditMode]
 public class GridManager : MonoBehaviour
 {
     Dictionary<Vector3Int, Waypoint> grid = new Dictionary<Vector3Int, Waypoint>();
+    [SerializeField] [Range(1, 20)] const int gridSize = 10;
 
-    [SerializeField] Waypoint start;
-    [SerializeField] Waypoint end;
+    [SerializeField] Waypoint playerStart = null;
+
+    //[SerializeField] Waypoint start = null;
+    //[SerializeField] Waypoint end = null;
+
+    public static int GridSize => gridSize;
+
+    public Waypoint PlayerStart { get => playerStart; set => playerStart = value; }
 
     private void Start()
     {
         LoadBlocks();
-        start.SetTopColor(Color.yellow);
-        end.SetTopColor(Color.cyan);
+        ClearAllChildrenAttachments();
+        AttachAllChildren();
+        FindObjectOfType<PlayerInput>().Init();
     }
 
     [ExposeMethodInEditor]
@@ -67,6 +74,4 @@ public class GridManager : MonoBehaviour
             }
         }
     }
-
-
 }

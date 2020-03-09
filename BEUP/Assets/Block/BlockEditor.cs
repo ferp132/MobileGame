@@ -26,7 +26,7 @@ public class BlockEditor : MonoBehaviour
 
     private void SnapToGrid()
     {
-        int gridSize = waypoint.GridSize;
+        int gridSize = GridManager.GridSize;
 
 
         transform.position = waypoint.GetGridPos();
@@ -35,7 +35,7 @@ public class BlockEditor : MonoBehaviour
     {
         TextMesh label = GetComponentInChildren<TextMesh>();
 
-        int gridSize = waypoint.GridSize;
+        int gridSize = GridManager.GridSize;
         Vector3Int gridPos = waypoint.GetGridPos();
 
         string xCoord = (gridPos.x / gridSize).ToString();
