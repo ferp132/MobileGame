@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CatchCo;
 
-[ExecuteAlways]
+[ExecuteInEditMode]
 [SelectionBase]
 [RequireComponent(typeof(Waypoint))]
 public class BlockEditor : MonoBehaviour
@@ -20,16 +20,17 @@ public class BlockEditor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SnapToGrid();
-        RenameLabel();
+        if (!Application.isPlaying)
+        {
+            SnapToGrid();
+            RenameLabel();
+        }
     }
 
     private void SnapToGrid()
     {
         int gridSize = GridManager.GridSize;
-
-
-        transform.position = waypoint.GetGridPos();
+        transform.position = waypoint.GetGridPos() * gridSize;
     }
     private void RenameLabel()
     {
@@ -38,8 +39,8 @@ public class BlockEditor : MonoBehaviour
         int gridSize = GridManager.GridSize;
         Vector3Int gridPos = waypoint.GetGridPos();
 
-        string xCoord = (gridPos.x / gridSize).ToString();
-        string zCoord = (gridPos.z / gridSize).ToString();
+        string xCoord = (gridPos.x).ToString();
+        string zCoord = (gridPos.z).ToString();
         string newName = xCoord + "," + zCoord;
 
         name = newName;

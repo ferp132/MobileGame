@@ -5,7 +5,7 @@ using CatchCo;
 
 public class GridManager : MonoBehaviour
 {
-    Dictionary<Vector3Int, Waypoint> grid = new Dictionary<Vector3Int, Waypoint>();
+    [SerializeField] List<Waypoint> grid;
     [SerializeField] [Range(1, 20)] const int gridSize = 10;
 
     [SerializeField] Waypoint playerStart = null;
@@ -19,16 +19,19 @@ public class GridManager : MonoBehaviour
 
     private void Start()
     {
-        LoadBlocks();
-        ClearAllChildrenAttachments();
-        AttachAllChildren();
+        if (grid == null)
+        {
+            grid = new List<Waypoint>();
+        }
+
+        print(grid.Count);
         FindObjectOfType<PlayerInput>().Init();
     }
 
     [ExposeMethodInEditor]
     private void AttachAllChildren()
     {
-        foreach (Waypoint waypoint in grid.Values)
+        foreach (Waypoint waypoint in grid)
         {
             waypoint.AttachToNeighbours();
         }
@@ -37,20 +40,9 @@ public class GridManager : MonoBehaviour
     [ExposeMethodInEditor]
     private void ClearAllChildrenAttachments()
     {
-        foreach (Waypoint waypoint in grid.Values)
+        foreach (Waypoint waypoint in grid)
         {
             waypoint.ClearAllAttachments();
-        }
-    }
-
-    [ExposeMethodInEditor]
-    private void ResetChildPosition()
-    {
-        foreach (Vector3Int pos in grid.Keys)
-        {
-            Waypoint waypoint = grid[pos];
-
-            waypoint.transform.position = pos;
         }
     }
 
@@ -63,15 +55,8 @@ public class GridManager : MonoBehaviour
 
         foreach (Waypoint waypoint in foundChildren)
         {
-            Vector3Int gridPos = waypoint.GetGridPos();
-            if (grid.ContainsKey(gridPos))
-            {
-                Debug.Log("Skipping overlapping waypoint at: " + gridPos);
-            }
-            else
-            {
-                grid.Add(gridPos, waypoint);
-            }
+            UnityEditor.EditorUtility.SetDirty(waypoint);
+            grid.Add(waypoint);
         }
     }
 }

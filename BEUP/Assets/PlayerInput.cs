@@ -9,6 +9,8 @@ public class PlayerInput : MonoBehaviour
     int MovePoints = 2;
     List<Waypoint> moveableWaypoints = new List<Waypoint>();
 
+    Waypoint selectedWaypoint = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,21 +20,20 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         
+        GetMouseInput();
     }
 
     public void Init()
     {
         grid = FindObjectOfType<GridManager>();
-        currentWaypoint = grid.PlayerStart;
-        transform.position = currentWaypoint.transform.position;
-        FindMoveableWaypoints();
+
+        SetCurrentWaypoint(grid.PlayerStart);
     }
     void FindMoveableWaypoints()
     {
         foreach (Waypoint waypoint in moveableWaypoints)
         {
-            waypoint.SetTopColor(Color.green);
+            waypoint.SetTopColor(Color.white);
         }
 
         moveableWaypoints.Clear();
@@ -40,7 +41,7 @@ public class PlayerInput : MonoBehaviour
         if (MovePoints > 0) 
         {
             //Add the current waypoint's attached waypoints to the moveableWaypoints list
-            moveableWaypoints.AddRange(currentWaypoint.AttachedWaypoints.Values);
+            moveableWaypoints.AddRange(currentWaypoint.AttachedWaypoints);
 
             //If we have extra movement to spare, also add the attached waypoints of those waypoints in the moveable waypoitns list
             for (int i = 0; i < MovePoints - 1; i++)
@@ -51,7 +52,7 @@ public class PlayerInput : MonoBehaviour
                 //Add waypoints that are not currently in the actual moveable waypoints list to the temp list
                 foreach (Waypoint waypoint in moveableWaypoints)
                 {
-                    foreach (Waypoint attachedWaypoint in waypoint.AttachedWaypoints.Values)
+                    foreach (Waypoint attachedWaypoint in waypoint.AttachedWaypoints)
                     {
                         if (moveableWaypoints.Contains(attachedWaypoint) || attachedWaypoint == currentWaypoint) continue;
                         else potentialWaypoints.Add(attachedWaypoint);
@@ -67,5 +68,67 @@ public class PlayerInput : MonoBehaviour
         {
             waypoint.SetTopColor(Color.yellow);
         }
+    }
+
+    void GetMouseInput()
+    {
+        //if the player is holding the left mouse button
+        //if (Input.GetMouseButton(0))
+        {
+            //Cast a ray from the mouse into the world
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            RaycastHit hit;
+
+            // Detect if this raycast hit a moveable block
+            if (Physics.Raycast(ray, out hit))
+            {
+
+                Waypoint hitWaypoint = hit.collider.GetComponentInParent<Waypoint>();
+
+                if (hitWaypoint)
+                {
+                    //Save a reference to the highlighted block
+                    SetSelectedWaypoint(hitWaypoint);
+                }
+            }
+
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            //if the selected waypoint is a valid move location
+            if (moveableWaypoints.Contains(selectedWaypoint))
+            {
+                //set the current waypoint and move to it
+                SetCurrentWaypoint(selectedWaypoint);
+            }
+
+        }
+
+    }
+
+    void SetSelectedWaypoint(Waypoint newWaypoint)
+    {
+        if (selectedWaypoint)
+        {
+            selectedWaypoint.SetTopColor(moveableWaypoints.Contains(selectedWaypoint) ? Color.yellow : Color.white);
+        }
+            
+
+        selectedWaypoint = newWaypoint;
+
+        if (moveableWaypoints.Contains(selectedWaypoint))
+        {
+            selectedWaypoint.SetTopColor(Color.green);
+        }
+        else selectedWaypoint.SetTopColor(Color.red);
+    }
+
+    void SetCurrentWaypoint(Waypoint newWaypoint)
+    {
+        currentWaypoint = newWaypoint;
+        transform.position = currentWaypoint.transform.position;
+        FindMoveableWaypoints();
     }
 }

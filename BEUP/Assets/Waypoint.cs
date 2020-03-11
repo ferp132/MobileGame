@@ -8,18 +8,26 @@ public class Waypoint : MonoBehaviour
     Vector3Int gridPos = Vector3Int.zero;
 
 
-    [SerializeField] Dictionary<Vector3Int, Waypoint> attachedWaypoints = new Dictionary<Vector3Int, Waypoint>();
+    [SerializeField] List<Waypoint> attachedWaypoints;
 
-    public Dictionary<Vector3Int, Waypoint> AttachedWaypoints { get => attachedWaypoints; set => attachedWaypoints = value; }
+    public List<Waypoint> AttachedWaypoints { get => attachedWaypoints; set => attachedWaypoints = value; }
+
+    private void Start()
+    {
+        if (attachedWaypoints == null)
+        {
+            attachedWaypoints = new List<Waypoint>();
+        }
+    }
 
     public Vector3Int GetGridPos()
     {
         float gridSize = GridManager.GridSize;
 
         return new Vector3Int(
-            (int)(Mathf.RoundToInt(transform.position.x / gridSize) * gridSize),
+            (int)(Mathf.RoundToInt(transform.position.x / gridSize)),
             0, //Mathf.RoundToInt(transform.position.y / gridSize) * gridSize
-            (int)(Mathf.RoundToInt(transform.position.z / gridSize) * gridSize)
+            (int)(Mathf.RoundToInt(transform.position.z / gridSize))
         );
     }
 
@@ -44,13 +52,12 @@ public class Waypoint : MonoBehaviour
 
                     if (foundNeighbour)
                     {
-                        Vector3Int gridPos = foundNeighbour.GetGridPos();
-                        if (attachedWaypoints.ContainsKey(gridPos))
+                        if (attachedWaypoints.Contains(foundNeighbour))
                         {
                         }
                         else
                         {
-                            attachedWaypoints.Add(gridPos, foundNeighbour);
+                            attachedWaypoints.Add(foundNeighbour);
                         }
                     }
                 }
@@ -60,17 +67,20 @@ public class Waypoint : MonoBehaviour
 
             }
         }
+        UnityEditor.EditorUtility.SetDirty(this);
     }
 
     [ExposeMethodInEditor]
     public void ClearAllAttachments()
     {
+       
         attachedWaypoints.Clear();
+        UnityEditor.EditorUtility.SetDirty(this);
     }
 
     private void OnDrawGizmosSelected()
     {
-        foreach (Waypoint waypoint in attachedWaypoints.Values)
+        foreach (Waypoint waypoint in attachedWaypoints)
         {
             Gizmos.DrawLine(transform.position, waypoint.transform.position);
         }
