@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,19 +9,42 @@ public class GameManager : MonoBehaviour
 
     public bool PlayerTurn { get => playerTurn; set => playerTurn = value; }
 
+    UnitManager player = null;
+    UnitManager enemies = null;
+    GridManager grid = null;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        grid = FindObjectOfType<GridManager>();
+        player = FindObjectOfType<PlayerManager>();
+        enemies = FindObjectOfType<EnemyManager>();
+
+        grid.Init();
+        player.Init(this);
+        enemies.Init(this);
+
+        StartGame();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void EndTurn()
     {
-        if (!playerTurn)
-        {
-            playerTurn = true;
-            FindObjectOfType<PlayerInput>().StartPlayerTurn();
-        } 
+        //playerTurn = !playerTurn;
+        StartTurn();
+    }
+
+    void StartGame()
+    {
+        playerTurn = true;
+        StartTurn();
+    }
+
+    private void StartTurn()
+    {
+        //UnitManager man = playerTurn ? player : enemies;
+
+        //man.StartTurn();
+
+        player.StartTurn();
     }
 }

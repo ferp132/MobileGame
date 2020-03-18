@@ -6,11 +6,13 @@ using CatchCo;
 public class Waypoint : MonoBehaviour
 {
     Vector3Int gridPos = Vector3Int.zero;
-
-
+    [SerializeField] bool explored = false;
     [SerializeField] List<Waypoint> attachedWaypoints;
+    [SerializeField] List<Vector3Int> blockedPaths;
 
     public List<Waypoint> AttachedWaypoints { get => attachedWaypoints; set => attachedWaypoints = value; }
+    public List<Vector3Int> BlockedPaths { get => blockedPaths; set => blockedPaths = value; }
+    public bool Explored { get => explored; set => explored = value; }
 
     private void Start()
     {
@@ -42,25 +44,7 @@ public class Waypoint : MonoBehaviour
             {
                 if (x == 0 && z == 0) continue;
 
-                string NameToSearch = ((transform.position.x / gridSize) + x) + "," + ((transform.position.z / gridSize) + z);
 
-                GameObject potentialWaypoint = GameObject.Find(NameToSearch);
-
-                if (potentialWaypoint)
-                {
-                    Waypoint foundNeighbour = potentialWaypoint.GetComponent<Waypoint>();
-
-                    if (foundNeighbour)
-                    {
-                        if (attachedWaypoints.Contains(foundNeighbour))
-                        {
-                        }
-                        else
-                        {
-                            attachedWaypoints.Add(foundNeighbour);
-                        }
-                    }
-                }
                 else continue;
 
 
