@@ -4,34 +4,46 @@ using UnityEngine;
 
 [RequireComponent(typeof(PlayerInput))]
 [RequireComponent(typeof(PlayerMovement))]
+[RequireComponent(typeof(PlayerAttack))]
 public class PlayerManager :  UnitManager
 {
     PlayerMovement  movement = null;
     PlayerInput     input    = null;
-
-    public void Start()
-    {
-        input = GetComponent<PlayerInput>();
-        movement = GetComponent<PlayerMovement>();
-    }
+    PlayerAttack    attack   = null;
 
     public override void StartTurn()
     {
         input.MyTurn = true;
         movement.StartTurn();
+        attack.StartTurn();
     }
 
     public override void Init(GameManager game)
     {
-        this.game = game;
-        movement.Init();
+        this.Game = game;
+
+        input = GetComponent<PlayerInput>();
+        movement = GetComponent<PlayerMovement>();
+        attack = GetComponent<PlayerAttack>();
+        movement.Init(this);
+        attack.Init(this);
+        input.Init(this);
 
     }
 
     public override void EndTurn()
     {
         input.MyTurn = false;
-        game.EndTurn();
+        attack.EndTurn();
+        movement.EndTurn();
+        Game.EndTurn();
+        
     }
+
+    public void AddScore(int amount)
+    {
+        Game.AddScore(amount);
+    }
+
 
 }

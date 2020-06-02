@@ -374,7 +374,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4293519071
 --- !u!1 &6854744797302927953
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +434,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9770731e021f80945930b2eaa813bfa6, type: 2}
+  - {fileID: 2100000, guid: 6f5b6d1429e8fe0439e9fc90baaa4250, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -622,7 +622,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4d6e01f3d72f04941a46ef26b4f64a8d, type: 2}
+  - {fileID: 2100000, guid: 6f5b6d1429e8fe0439e9fc90baaa4250, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -708,6 +708,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4cb19582ffd154fb4234b3fd1bee7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathToBlock: {x: 0, y: 0, z: 0}
+  blockPathNeighbours: 0
+  blockSelf: 1
 --- !u!114 &4933832150294977564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,3 +723,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0cdd91ee58c3804397732ffa7ac26a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blockType: 0
+  explored: 0
+  attachedWaypoints: []
+  blockedPaths: []
+  occupiedBy: {fileID: 0}

@@ -1,0 +1,4 @@
+#Mon Apr 20 17:45:59 NZST 2020
+base.0=C\:\\Users\\Louis\\Documents\\GitHub\\MobileGame\\BEUP\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

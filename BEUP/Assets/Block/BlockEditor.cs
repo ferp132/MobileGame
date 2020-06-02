@@ -10,6 +10,7 @@ public class BlockEditor : MonoBehaviour
 {
     GridManager grid;
     Waypoint waypoint = null;
+    TextMesh label = null;
 
     [Header("Block Path")]
     [SerializeField]
@@ -27,6 +28,11 @@ public class BlockEditor : MonoBehaviour
         waypoint = GetComponent<Waypoint>();
     }
 
+    public void SetLabelActive(bool status)
+    {
+         label.gameObject.SetActive(status);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -34,6 +40,7 @@ public class BlockEditor : MonoBehaviour
         {
             SnapToGrid();
             RenameLabel();
+            waypoint.SetTopColor();
         }
     }
 
@@ -46,6 +53,8 @@ public class BlockEditor : MonoBehaviour
     private void RenameLabel()
     {
         TextMesh label = GetComponentInChildren<TextMesh>();
+        if (label == null) return;
+
 
         int gridSize = GridManager.GridSize;
         Vector3Int gridPos = waypoint.GetGridPos();
@@ -119,15 +128,16 @@ public class BlockEditor : MonoBehaviour
 
                 if (potentialWaypoint)
                 {
-                    UnityEditor.EditorUtility.SetDirty(potentialWaypoint);
+                   // UnityEditor.EditorUtility.SetDirty(potentialWaypoint);
                     potentialWaypoint.BlockedPaths.Add(-neighbour);
                 }
                 else print("Could not find neigbour at" + (waypoint.GetGridPos() + neighbour));
             }
         }
 
+
         //add blocked paths to this waypoint
-        UnityEditor.EditorUtility.SetDirty(waypoint);
+        //UnityEditor.EditorUtility.SetDirty(waypoint);
         waypoint.BlockedPaths.AddRange(blockedPaths);
     }
 

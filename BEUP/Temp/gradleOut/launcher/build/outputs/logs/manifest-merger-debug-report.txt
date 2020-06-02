@@ -1,0 +1,492 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-112:12
+MERGED from [:android.arch.core.runtime-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\9bf7ebddb6c6bd2b7e5f3887b958a1a6\AndroidManifest.xml:17:1-22:12
+MERGED from [:android.arch.lifecycle.livedata-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\79f1676da2e16f675016bc539de22135\AndroidManifest.xml:17:1-22:12
+MERGED from [:android.arch.lifecycle.livedata-core-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\223ea6b36324121aa654252da65c4693\AndroidManifest.xml:17:1-22:12
+MERGED from [:android.arch.lifecycle.runtime-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e73f080999a2c3fcec19b02b56cc7bbf\AndroidManifest.xml:17:1-22:12
+MERGED from [:android.arch.lifecycle.viewmodel-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\2770f02fdb0a397b5d2a156dfd35ffd9\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.installreferrer.installreferrer-1.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\b82128cdf6def35ca7ad14e7db1baf6e\AndroidManifest.xml:2:1-13:12
+MERGED from [:com.android.support.animated-vector-drawable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\ca0ed6be26c98912032403a79c63a7e0\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.appcompat-v7-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\6244860245cbaeede18a32f8ae143a97\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.asynclayoutinflater-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\53babd4407cfad61b67d8c95895a688c\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.cardview-v7-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\158e4f321af059a81f1f4114115a3a5e\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.coordinatorlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\6e09355d1ee6215b8ad8bdfeedc58a85\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.cursoradapter-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\264d89328aa8fd3b07785575ee04b0b1\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.customtabs-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\4df29bdff924130dfba44431c9c113d0\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.customview-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\24245baa6de93f85d11e20628afced81\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.documentfile-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0e1b0501d5da84b10256b89ac4a6bb1c\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.drawerlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\275417aa636b9d3200bb24bed3cd4f07\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.interpolator-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\45c40a9ce4f8ec79ab63b9566c25b695\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.loader-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\fb4dc67786456c9a2fd89a39f55b8096\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.localbroadcastmanager-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\717d7c2ca8f1f70d95016f463ac8fea1\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.print-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e96059debe2e9a7050e03e968967b7a3\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.slidingpanelayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\114fde564ce016420dea6a15ed1d68d2\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.support-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\46bcc147794d94dd8155c0f79f1f7587\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.android.support.support-core-ui-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\02baec03dfefaa6c76ac64a41f2b7fc9\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.support-core-utils-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\45c5862b7286b16ceeb9c8d3fcc1ec3f\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.support-fragment-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\4ffaff84c1d274a097c0800e003dbadd\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.support-media-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\a0a1d1575b76fc3cd65d6dc57df8c245\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.support-v4-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f439d221f883e3aa4cc65fe4ec5f14a7\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.support-vector-drawable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\9cfdf387ea41038e9f43ab7f91ed23d7\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.swiperefreshlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\5df30d6350d38ff8f2c7876977c7c0ea\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.android.support.versionedparcelable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\319422ef70103598114928e9ac54396c\AndroidManifest.xml:17:1-25:12
+MERGED from [:com.android.support.viewpager-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\dd35168540ad9bcbd6f04b7489c10eb1\AndroidManifest.xml:17:1-22:12
+MERGED from [:com.facebook.android.facebook-applinks-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e34cd4a963040e147d528c47f4fc2193\AndroidManifest.xml:21:1-31:12
+MERGED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:21:1-35:12
+MERGED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:21:1-40:12
+MERGED from [:com.facebook.android.facebook-gamingservices-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\63efde7a6f25d6b68de4776a8b5bb82a\AndroidManifest.xml:21:1-31:12
+MERGED from [:com.facebook.android.facebook-login-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0dad27dbd20fb66dde4bb48d34ac52fe\AndroidManifest.xml:21:1-31:12
+MERGED from [:com.facebook.android.facebook-share-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e8f71e649718bb2f358a1b6f234f45b6\AndroidManifest.xml:21:1-31:12
+MERGED from [:facebook-android-wrapper-7.19.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e7071f042372842612b444732725f7eb\AndroidManifest.xml:21:1-30:12
+MERGED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:2:1-37:12
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\c5bdff5b295c0a776f4ecbdd2e0eda93\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-99
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:100-146
+	android:versionCode
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:147-187
+supports-screens
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:3-163
+MERGED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-17:40
+MERGED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-17:40
+	android:largeScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:135-160
+application
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:3-83
+MERGED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-110:19
+MERGED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-110:19
+MERGED from [:com.android.installreferrer.installreferrer-1.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\b82128cdf6def35ca7ad14e7db1baf6e\AndroidManifest.xml:11:5-20
+MERGED from [:com.android.installreferrer.installreferrer-1.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\b82128cdf6def35ca7ad14e7db1baf6e\AndroidManifest.xml:11:5-20
+MERGED from [:com.android.support.support-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\46bcc147794d94dd8155c0f79f1f7587\AndroidManifest.xml:22:5-94
+MERGED from [:com.android.support.support-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\46bcc147794d94dd8155c0f79f1f7587\AndroidManifest.xml:22:5-94
+MERGED from [:com.android.support.versionedparcelable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\319422ef70103598114928e9ac54396c\AndroidManifest.xml:22:5-23:19
+MERGED from [:com.android.support.versionedparcelable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\319422ef70103598114928e9ac54396c\AndroidManifest.xml:22:5-23:19
+MERGED from [:com.facebook.android.facebook-applinks-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e34cd4a963040e147d528c47f4fc2193\AndroidManifest.xml:28:5-29:19
+MERGED from [:com.facebook.android.facebook-applinks-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e34cd4a963040e147d528c47f4fc2193\AndroidManifest.xml:28:5-29:19
+MERGED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:23:3-34:17
+MERGED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:23:3-34:17
+MERGED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:23:3-39:17
+MERGED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:23:3-39:17
+MERGED from [:com.facebook.android.facebook-gamingservices-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\63efde7a6f25d6b68de4776a8b5bb82a\AndroidManifest.xml:28:5-29:19
+MERGED from [:com.facebook.android.facebook-gamingservices-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\63efde7a6f25d6b68de4776a8b5bb82a\AndroidManifest.xml:28:5-29:19
+MERGED from [:com.facebook.android.facebook-login-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0dad27dbd20fb66dde4bb48d34ac52fe\AndroidManifest.xml:28:5-29:19
+MERGED from [:com.facebook.android.facebook-login-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0dad27dbd20fb66dde4bb48d34ac52fe\AndroidManifest.xml:28:5-29:19
+MERGED from [:com.facebook.android.facebook-share-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e8f71e649718bb2f358a1b6f234f45b6\AndroidManifest.xml:28:5-29:19
+MERGED from [:com.facebook.android.facebook-share-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e8f71e649718bb2f358a1b6f234f45b6\AndroidManifest.xml:28:5-29:19
+MERGED from [:facebook-android-wrapper-7.19.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e7071f042372842612b444732725f7eb\AndroidManifest.xml:28:5-20
+MERGED from [:facebook-android-wrapper-7.19.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e7071f042372842612b444732725f7eb\AndroidManifest.xml:28:5-20
+MERGED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:14:5-35:19
+MERGED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:14:5-35:19
+	android:supportsRtl
+		ADDED from [:com.facebook.android.facebook-applinks-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e34cd4a963040e147d528c47f4fc2193\AndroidManifest.xml:28:18-44
+	android:appComponentFactory
+		ADDED from [:com.android.support.support-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\46bcc147794d94dd8155c0f79f1f7587\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:16-48
+	android:debuggable
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-34
+	android:icon
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:49-80
+	android:theme
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-67
+uses-sdk
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:android.arch.core.runtime-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\9bf7ebddb6c6bd2b7e5f3887b958a1a6\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.core.runtime-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\9bf7ebddb6c6bd2b7e5f3887b958a1a6\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.livedata-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\79f1676da2e16f675016bc539de22135\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.livedata-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\79f1676da2e16f675016bc539de22135\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.livedata-core-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\223ea6b36324121aa654252da65c4693\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.livedata-core-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\223ea6b36324121aa654252da65c4693\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.runtime-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e73f080999a2c3fcec19b02b56cc7bbf\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.runtime-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e73f080999a2c3fcec19b02b56cc7bbf\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.viewmodel-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\2770f02fdb0a397b5d2a156dfd35ffd9\AndroidManifest.xml:20:5-44
+MERGED from [:android.arch.lifecycle.viewmodel-1.1.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\2770f02fdb0a397b5d2a156dfd35ffd9\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.installreferrer.installreferrer-1.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\b82128cdf6def35ca7ad14e7db1baf6e\AndroidManifest.xml:5:5-7:41
+MERGED from [:com.android.installreferrer.installreferrer-1.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\b82128cdf6def35ca7ad14e7db1baf6e\AndroidManifest.xml:5:5-7:41
+MERGED from [:com.android.support.animated-vector-drawable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\ca0ed6be26c98912032403a79c63a7e0\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.animated-vector-drawable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\ca0ed6be26c98912032403a79c63a7e0\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.appcompat-v7-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\6244860245cbaeede18a32f8ae143a97\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.appcompat-v7-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\6244860245cbaeede18a32f8ae143a97\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.asynclayoutinflater-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\53babd4407cfad61b67d8c95895a688c\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.asynclayoutinflater-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\53babd4407cfad61b67d8c95895a688c\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.cardview-v7-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\158e4f321af059a81f1f4114115a3a5e\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.cardview-v7-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\158e4f321af059a81f1f4114115a3a5e\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.coordinatorlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\6e09355d1ee6215b8ad8bdfeedc58a85\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.coordinatorlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\6e09355d1ee6215b8ad8bdfeedc58a85\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.cursoradapter-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\264d89328aa8fd3b07785575ee04b0b1\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.cursoradapter-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\264d89328aa8fd3b07785575ee04b0b1\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.customtabs-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\4df29bdff924130dfba44431c9c113d0\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.customtabs-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\4df29bdff924130dfba44431c9c113d0\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.customview-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\24245baa6de93f85d11e20628afced81\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.customview-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\24245baa6de93f85d11e20628afced81\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.documentfile-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0e1b0501d5da84b10256b89ac4a6bb1c\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.documentfile-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0e1b0501d5da84b10256b89ac4a6bb1c\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.drawerlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\275417aa636b9d3200bb24bed3cd4f07\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.drawerlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\275417aa636b9d3200bb24bed3cd4f07\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.interpolator-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\45c40a9ce4f8ec79ab63b9566c25b695\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.interpolator-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\45c40a9ce4f8ec79ab63b9566c25b695\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.loader-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\fb4dc67786456c9a2fd89a39f55b8096\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.loader-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\fb4dc67786456c9a2fd89a39f55b8096\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.localbroadcastmanager-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\717d7c2ca8f1f70d95016f463ac8fea1\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.localbroadcastmanager-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\717d7c2ca8f1f70d95016f463ac8fea1\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.print-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e96059debe2e9a7050e03e968967b7a3\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.print-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e96059debe2e9a7050e03e968967b7a3\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.slidingpanelayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\114fde564ce016420dea6a15ed1d68d2\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.slidingpanelayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\114fde564ce016420dea6a15ed1d68d2\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\46bcc147794d94dd8155c0f79f1f7587\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\46bcc147794d94dd8155c0f79f1f7587\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-core-ui-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\02baec03dfefaa6c76ac64a41f2b7fc9\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-core-ui-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\02baec03dfefaa6c76ac64a41f2b7fc9\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-core-utils-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\45c5862b7286b16ceeb9c8d3fcc1ec3f\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-core-utils-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\45c5862b7286b16ceeb9c8d3fcc1ec3f\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-fragment-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\4ffaff84c1d274a097c0800e003dbadd\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-fragment-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\4ffaff84c1d274a097c0800e003dbadd\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-media-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\a0a1d1575b76fc3cd65d6dc57df8c245\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-media-compat-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\a0a1d1575b76fc3cd65d6dc57df8c245\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-v4-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f439d221f883e3aa4cc65fe4ec5f14a7\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-v4-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f439d221f883e3aa4cc65fe4ec5f14a7\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-vector-drawable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\9cfdf387ea41038e9f43ab7f91ed23d7\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-vector-drawable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\9cfdf387ea41038e9f43ab7f91ed23d7\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.swiperefreshlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\5df30d6350d38ff8f2c7876977c7c0ea\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.swiperefreshlayout-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\5df30d6350d38ff8f2c7876977c7c0ea\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.versionedparcelable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\319422ef70103598114928e9ac54396c\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.versionedparcelable-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\319422ef70103598114928e9ac54396c\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.viewpager-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\dd35168540ad9bcbd6f04b7489c10eb1\AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.viewpager-28.0.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\dd35168540ad9bcbd6f04b7489c10eb1\AndroidManifest.xml:20:5-44
+MERGED from [:com.facebook.android.facebook-applinks-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e34cd4a963040e147d528c47f4fc2193\AndroidManifest.xml:24:5-26:41
+MERGED from [:com.facebook.android.facebook-applinks-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e34cd4a963040e147d528c47f4fc2193\AndroidManifest.xml:24:5-26:41
+MERGED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:22:3-72
+MERGED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:22:3-72
+MERGED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:22:3-72
+MERGED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:22:3-72
+MERGED from [:com.facebook.android.facebook-gamingservices-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\63efde7a6f25d6b68de4776a8b5bb82a\AndroidManifest.xml:24:5-26:41
+MERGED from [:com.facebook.android.facebook-gamingservices-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\63efde7a6f25d6b68de4776a8b5bb82a\AndroidManifest.xml:24:5-26:41
+MERGED from [:com.facebook.android.facebook-login-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0dad27dbd20fb66dde4bb48d34ac52fe\AndroidManifest.xml:24:5-26:41
+MERGED from [:com.facebook.android.facebook-login-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\0dad27dbd20fb66dde4bb48d34ac52fe\AndroidManifest.xml:24:5-26:41
+MERGED from [:com.facebook.android.facebook-share-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e8f71e649718bb2f358a1b6f234f45b6\AndroidManifest.xml:24:5-26:41
+MERGED from [:com.facebook.android.facebook-share-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e8f71e649718bb2f358a1b6f234f45b6\AndroidManifest.xml:24:5-26:41
+MERGED from [:facebook-android-wrapper-7.19.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e7071f042372842612b444732725f7eb\AndroidManifest.xml:24:5-26:41
+MERGED from [:facebook-android-wrapper-7.19.1:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\e7071f042372842612b444732725f7eb\AndroidManifest.xml:24:5-26:41
+MERGED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\c5bdff5b295c0a776f4ecbdd2e0eda93\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\c5bdff5b295c0a776f4ecbdd2e0eda93\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-55
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-67
+MERGED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:12:5-67
+MERGED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:22-64
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-60:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-51
+	android:label
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-45
+	android:launchMode
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-194
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-52:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-56:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-59:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-53
+activity#com.facebook.unity.FBUnityLoginActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:9-64:86
+	android:configChanges
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-170
+	android:theme
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-83
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-67
+activity#com.facebook.unity.FBUnityDialogsActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:9-68:86
+	android:configChanges
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-170
+	android:theme
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-83
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-69
+activity#com.facebook.unity.FBUnityGamingServicesFriendFinderActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-72:86
+	android:configChanges
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-170
+	android:theme
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-83
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-88
+activity#com.facebook.unity.FBUnityAppLinkActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:9-75:39
+	android:exported
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-69
+activity#com.facebook.unity.FBUnityDeepLinkingActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:9-78:39
+	android:exported
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-36
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-73
+activity#com.facebook.unity.FBUnityGameRequestActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:9-82
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:19-79
+activity#com.facebook.unity.FBUnityCreateGameGroupActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:9-86
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:19-83
+activity#com.facebook.unity.FBUnityJoinGameGroupActivity
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:9-84
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:19-81
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:9-85:49
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-46
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-58
+meta-data#com.facebook.sdk.AutoLogAppEventsEnabled
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:9-88:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:13-68
+meta-data#com.facebook.sdk.AdvertiserIDCollectionEnabled
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:9-91:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:13-74
+provider#com.facebook.FacebookContentProvider
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-96:39
+	android:authorities
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-90
+	android:exported
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:13-64
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:9-100:33
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:13-30
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-103:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:9-106:50
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:13-47
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:9-109:68
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-65
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-42
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [:com.android.installreferrer.installreferrer-1.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\b82128cdf6def35ca7ad14e7db1baf6e\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [:com.android.installreferrer.installreferrer-1.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\b82128cdf6def35ca7ad14e7db1baf6e\AndroidManifest.xml:9:22-107
+activity#com.facebook.FacebookActivity
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:24:5-197
+	android:configChanges
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:24:60-143
+	android:theme
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:24:144-194
+	android:name
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:24:15-59
+activity#com.facebook.CustomTabMainActivity
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:25:15-64
+activity#com.facebook.CustomTabActivity
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:26:5-33:16
+	tools:node
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:26:85-103
+	android:exported
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:26:61-84
+	android:name
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:26:15-60
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.WechoGames.BEUP+data:scheme:fbconnect
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:27:7-32:23
+action#android.intent.action.VIEW
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:28:9-61
+	android:name
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:28:17-58
+category#android.intent.category.DEFAULT
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:29:9-68
+	android:name
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:29:19-65
+category#android.intent.category.BROWSABLE
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:30:9-70
+	android:name
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:30:19-67
+data
+ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:31:9-83
+	android:host
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:31:15-53
+	android:scheme
+		ADDED from [:com.facebook.android.facebook-common-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f340c0337136abd7f9b6e6cde93d15ff\AndroidManifest.xml:31:54-80
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:33:5-163
+	android:authorities
+		ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:33:73-135
+	android:exported
+		ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:33:136-160
+	android:name
+		ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:33:15-72
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:34:5-38:16
+	android:exported
+		ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:34:89-113
+	android:name
+		ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:34:15-88
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:35:7-37:23
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:36:9-87
+	android:name
+		ADDED from [:com.facebook.android.facebook-core-6.3.0:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\f687c9b1f5de41c1df4c21867cf22fd5\AndroidManifest.xml:36:17-84
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:11:22-76
+activity#com.unity3d.services.ads.adunit.AdUnitActivity
+ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:15:9-19:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:18:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:17:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:19:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:16:13-74
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:20:9-24:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:23:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:22:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:21:13-85
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:25:9-29:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:28:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:27:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:26:13-93
+activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:30:9-34:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:33:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:32:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:34:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\Louis\.gradle\caches\transforms-2\files-2.1\96ffdb065e2d8e9b2163c832f740ae8f\AndroidManifest.xml:31:13-82

@@ -1,0 +1,227 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:70-98
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:164-189
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:140-163
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:2:99-139
+supports-screens
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:4:3-29:17
+	android:label
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:4:75-107
+	android:debuggable
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:4:108-133
+	android:icon
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:4:134-165
+	android:theme
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:4:16-74
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
+	android:screenOrientation
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:5:102-140
+	android:label
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:5:69-101
+	android:launchMode
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:5:141-172
+	android:hardwareAccelerated
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:5:355-390
+	android:configChanges
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:5:173-354
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:6:7-9:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:8:19-66
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+meta-data#android.notch_support
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+activity#com.facebook.unity.FBUnityLoginActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:13:5-301
+	android:configChanges
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:13:70-227
+	android:theme
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:13:228-298
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:13:15-69
+activity#com.facebook.unity.FBUnityDialogsActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:14:5-303
+	android:configChanges
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:14:72-229
+	android:theme
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:14:230-300
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:14:15-71
+activity#com.facebook.unity.FBUnityGamingServicesFriendFinderActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:5-322
+	android:configChanges
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:91-248
+	android:theme
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:249-319
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:15-90
+activity#com.facebook.unity.FBUnityAppLinkActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:16:5-98
+	android:exported
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:16:72-95
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:16:15-71
+activity#com.facebook.unity.FBUnityDeepLinkingActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:5-102
+	android:exported
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:76-99
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:15-75
+activity#com.facebook.unity.FBUnityGameRequestActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:18:15-75
+activity#com.facebook.unity.FBUnityCreateGameGroupActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:19:5-82
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:19:15-79
+activity#com.facebook.unity.FBUnityJoinGameGroupActivity
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:20:15-77
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:21:5-98
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:21:62-95
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:21:16-61
+meta-data#com.facebook.sdk.AutoLogAppEventsEnabled
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:22:5-95
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:22:72-92
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:22:16-71
+meta-data#com.facebook.sdk.AdvertiserIDCollectionEnabled
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:23:5-101
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:23:78-98
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:23:16-77
+provider#com.facebook.FacebookContentProvider
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:24:5-171
+	android:authorities
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:24:67-144
+	android:exported
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:24:145-168
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:24:15-66
+meta-data#unity.splash-mode
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:25:5-69
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:25:49-66
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:25:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:26:5-74
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:26:51-71
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:26:16-50
+meta-data#notch.config
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:27:5-81
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:27:44-78
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:27:16-43
+meta-data#unity.build-id
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:28:5-101
+	android:value
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:28:46-98
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:28:16-45
+uses-feature#0x00030000
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:30:3-52
+	android:glEsVersion
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:30:17-49
+uses-feature#android.hardware.vulkan.version
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:31:3-91
+	android:required
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:31:64-88
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:31:17-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:32:3-65
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:32:20-62
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:33:3-88
+	android:required
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:33:61-85
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:33:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:34:3-99
+	android:required
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:34:72-96
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:34:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:35:3-108
+	android:required
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:35:81-105
+	android:name
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:35:17-80
+uses-sdk
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Louis\Documents\GitHub\MobileGame\BEUP\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml

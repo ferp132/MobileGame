@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class UnitManager : MonoBehaviour
 {
-    protected GameManager game = null;
+    private GameManager game = null;
+    protected GridManager grid = null;
+
+    public GameManager Game { get => game; set => game = value; }
 
     public virtual void StartTurn(){ }
     public virtual void Init(GameManager game) { }
